@@ -9,27 +9,40 @@
   height: 500px;
   border-radius: 10px;
   align-items: center;
-  background-color: rgba(128, 128, 128, 0.714);
+  background-color: #cdac5ae6;
   padding: 15px;
   margin: 0 auto;
   display: flex;
   gap: 15px;
 }
 
-.calk-card_1 {
+.calk_card_1 {
   width: 330px;
   height: 450px;
   border-radius: 10px;
   background-color: rgb(229, 173, 230);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
-.calk-card_2 {
+.calk_card_2 {
   width: 330px;
   height: 450px;
   border-radius: 10px;
   background-color: rgb(173, 230, 196);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
+
+.btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3 ease-in-out;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
 .vic {
   margin: 0 auto;
   margin-top: 10px;
@@ -39,14 +52,8 @@
   color: crimson;
   background-color: rgba(218, 165, 32, 0.295);
 }
-
-.btn {
-  padding: 10px 20px;
-  background-color: blue;
-  color: white;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3 ease-in-out;
-  font-size: 18px;
-  border-radius: 5px;
+#sanoq {
+  color: teal;
+  text-align: center;
+  font-size: 22px;
 }

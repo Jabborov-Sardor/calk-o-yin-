@@ -16,13 +16,28 @@
   gap: 15px;
 }
 
-.calk-card {
+.calk-card_1 {
   width: 330px;
   height: 450px;
   border-radius: 10px;
-  background-color: lightblue;
-  /* margin: 20px; */
+  background-color: rgb(229, 173, 230);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.calk-card_2 {
+  width: 330px;
+  height: 450px;
+  border-radius: 10px;
+  background-color: rgb(173, 230, 196);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.vic {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  color: crimson;
+  background-color: rgba(218, 165, 32, 0.295);
 }
 
 .btn {
